@@ -32,7 +32,7 @@ Deployment: Vercel
 
     git clone https://github.com/frau-azadeh/where-tehran.git
     cd where-tehran
-    
+
 2️⃣ Install Dependencies
 
     npm install
