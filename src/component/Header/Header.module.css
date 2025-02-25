@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap:rem;
+    nav{
+       
+        >ul{
+           > li{
+               a{
+                    
+               }
+            }
+        }
+    }
+    
+
+}
