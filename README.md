@@ -1,50 +1,54 @@
-# React + TypeScript + Vite
+# Where Tehran 🏙️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to Where Tehran! 🚀 This is a modern blogging website built with React, TypeScript, and CSS, showcasing the most beautiful and must-visit places in Tehran. It utilizes external APIs to fetch the latest tourist information.
 
-Currently, two official plugins are available:
+## 📌 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Discover Places – Explore stunning attractions in Tehran 📍
 
-## Expanding the ESLint configuration
+✅ Dynamic API Integration – Fetch real-time location details using REST APIs 🌍
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+✅ Modern UI – Stylish and responsive design with CSS 🎨
 
-- Configure the top-level `parserOptions` property like this:
+✅ TypeScript Powered – Ensuring strong typing and maintainability 🛠️
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+✅ Fast & Optimized – Built with React and Vite for blazing-fast performance ⚡
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+🛠️ Tech Stack
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Frontend: React, TypeScript, CSS
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+State Management: React Hooks
+
+API: RESTful API Integration
+
+Build Tool: Vite
+
+Deployment: Vercel
+
+## 🚀 Getting Started
+
+1️⃣ Clone the Repository:
+
+    git clone https://github.com/frau-azadeh/where-tehran.git
+    cd where-tehran
+    
+2️⃣ Install Dependencies
+
+    npm install
+
+3️⃣ Start Development Server
+
+    npm run dev
+
+The app will be available at http://localhost:5173/ 🚀
+
+## 🚀 Deployment
+
+You can easily deploy the project using [Vercel]()
+
+## 🙌 Contributing
+
+Contributions are welcome! Feel free to submit a pull request or open an issue.
+
+Developed with 🌻 by Azadeh Sharifi Soltani Feel free to connect and collaborate!
